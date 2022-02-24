@@ -38,3 +38,16 @@ h1{
 .red{
     background-color: rgb(184, 6, 6);
 }
+
+#arr_sz {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#arr_sp {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

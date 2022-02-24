@@ -1,10 +1,16 @@
 // console.log('hello world')
 
 let arr = [];
+var arr_size=document.querySelector("#arr_sz"); 
+arr_size.addEventListener("input",bars);
+
 function bars () {
     deletBars();
 
-for(let i=0; i<100; i++) {
+   
+    var no_of_bar=arr_size.value;  
+console.log(no_of_bar);
+for(let i=0; i<no_of_bar; i++) {
     //creating array of 100 randoms
     arr[i] = Math.floor(Math.random() * 100) +1;
 
